@@ -8,7 +8,6 @@ from pathlib import Path
 from fastapi import FastAPI, Request, UploadFile, File, Form, HTTPException, Depends
 from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
-from fastapi.templating import Jinja2Templates
 from icalendar import Calendar
 from datetime import date
 import uvicorn
